@@ -48,20 +48,20 @@ self.__precacheManifest = [
     "revision": "de5e22b15cf20cb0d586a036d714ee3f"
   },
   {
-    "url": "certificate.d1673940.pdf",
-    "revision": "624e7a3f5560db68d93eda0129cc2922"
+    "url": "certificate.1e3570bc.pdf",
+    "revision": "623cac53a40c141642b22bf50fe14628"
   },
   {
-    "url": "confidentialite.0c7b9778.js",
-    "revision": "df64d4feed9da34964c3471c50658580"
+    "url": "confidentialite.2d783f57.css",
+    "revision": "261ba313e07cb1ad8fc65e68c218edcb"
   },
   {
-    "url": "confidentialite.c570c02d.css",
-    "revision": "81f6d9c2f579d0f47ba1bfff55bf45ad"
+    "url": "confidentialite.3a310eb9.js",
+    "revision": "d3c186a008c192b2185de844d28207a6"
   },
   {
     "url": "confidentialite.html",
-    "revision": "65d083df90da553a1fa19320b205fd5d"
+    "revision": "bd4029a09423d9848a0d45970bdb7e48"
   },
   {
     "url": "favicon-16x16.a4687270.png",
@@ -73,7 +73,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "98b66fb8c5481598690443c7d7f9f961"
+    "revision": "e0fe4a4d27b307e1b19fe4191b361cf2"
   },
   {
     "url": "logo_dnum_dark.0fe33c5b.svg",
@@ -84,12 +84,12 @@ self.__precacheManifest = [
     "revision": "3a41bfa41e4671414da29db168c37d66"
   },
   {
-    "url": "main.896797d0.js",
-    "revision": "6dab1012b7ff441953a39997efc44c68"
+    "url": "main.2d783f57.css",
+    "revision": "3670e85d93a00066a9226c584fdd8f24"
   },
   {
-    "url": "main.c570c02d.css",
-    "revision": "fae304bc58a3eedf773a0ef388bf50bb"
+    "url": "main.9131e127.js",
+    "revision": "64e34da17b3eb75047ddfaf79146d9e2"
   },
   {
     "url": "marianne-bold-webfont.1505950c.woff2",
@@ -121,9 +121,9 @@ self.__precacheManifest = [
   },
   {
     "url": "./",
-    "revision": "08b1e5b6d211a89cce0f147552a45132"
+    "revision": "0a58de3f61433bcae9698af605233884"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/index.html"));
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("https://franxois.github.io/attestation-deplacement-derogatoire-q4-2020//index.html"));
