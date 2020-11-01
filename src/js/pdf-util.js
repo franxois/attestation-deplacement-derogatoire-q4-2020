@@ -15,6 +15,8 @@ const ys = {
 
 export async function generatePdf (profile, reasons, pdfBase) {
   const creationInstant = new Date()
+  // Be sure hidden creating date is before datesortie & heuresortie
+  creationInstant.setTime(creationInstant.getTime() - 5 * 60 * 1000)
   const creationDate = creationInstant.toLocaleDateString('fr-FR')
   const creationHour = creationInstant
     .toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })
