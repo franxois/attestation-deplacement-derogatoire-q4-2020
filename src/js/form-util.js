@@ -227,7 +227,7 @@ function setField (input, name, value) {
       const val1 = sign * Number(match[2])
       const unit = match[3]
       const val2 = sign * Number(match[4] || '0')
-      let date = new Date()
+      const date = new Date()
       if (unit === 'm' || unit === 'M') {
         date.setMinutes(date.getMinutes() + val1)
         date.setSeconds(date.getSeconds() + val2)
