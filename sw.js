@@ -52,20 +52,20 @@ self.__precacheManifest = [
     "revision": "623cac53a40c141642b22bf50fe14628"
   },
   {
-    "url": "confidentialite.36a45eba.js",
-    "revision": "a7c607bccd8b9e342a2eb08849e394a6"
+    "url": "confidentialite.880c4390.js",
+    "revision": "36083ce766e69ea0b883183ca5891a45"
   },
   {
-    "url": "confidentialite.c00a1334.css",
-    "revision": "c7a0892d76ab23edcef578aee64c849f"
+    "url": "confidentialite.ccb59a21.css",
+    "revision": "4994c2d703488eb4a35b77d49521fd88"
   },
   {
     "url": "confidentialite.html",
-    "revision": "536b604e645b9f55213199de6d4db583"
+    "revision": "19f37ac2069fea512606b8d1a2cd6a83"
   },
   {
     "url": "differences.html",
-    "revision": "f40a2a7cbf9bdcf4eeb920994ad7baf9"
+    "revision": "11f6a79b7f48bd39800224afac810585"
   },
   {
     "url": "favicon-16x16.a4687270.png",
@@ -77,15 +77,15 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "d475b8151e6f682872722f4cf3980ee6"
+    "revision": "3e90b00d877863ab5a2da89ed5ade020"
   },
   {
-    "url": "main.620330c2.js",
-    "revision": "139996e4c64fd225125f9fa469b37f0c"
+    "url": "main.ccb59a21.css",
+    "revision": "502d8ee4444e6df6cd3c19d0159938bf"
   },
   {
-    "url": "main.c00a1334.css",
-    "revision": "1485d9cc2fe2f2e164d7f7253e8e856d"
+    "url": "main.d0fbdbcd.js",
+    "revision": "edf9ebc6625212b65d953ccdb1827eaa"
   },
   {
     "url": "marianne-bold-webfont.1505950c.woff2",
@@ -117,9 +117,9 @@ self.__precacheManifest = [
   },
   {
     "url": "./",
-    "revision": "abf9770163e65d71b30b3497899812e4"
+    "revision": "4c00f60c0621f38691b87059363bb382"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/index.html"));
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("https://franxois.github.io/attestation-deplacement-derogatoire-q4-2020//index.html"));
